@@ -57,7 +57,6 @@ class Vcc
      */
     float Read_Perc(const float range_min = 0.0, const float range_max = 0.0, const boolean clip = true);
 
-  protected:
     float m_correction;     /**< Correction factor, when reported Vcc is off. */ 
 };
 
